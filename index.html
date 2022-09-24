@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+<title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <div class="logoalura">
+            <img src="Logo.png" alt="Logo de Alura">
+        </div>
+        </header>    
+    
+    <main>
+            <section>
+                <textarea class="input-padron" cols= "40" rows="5" placeholder ="Ingrese texto aquí"></textarea>  
+                <div class="botones">
+                    <button class="encriptar" onclick="botonEncriptar ()"> Encriptar</button>
+                    <button class="desencriptar" onclick="botonDesencriptar ()"> Desencriptar</button>
+                </div>
+            </section>
+            
+            
+            
+            <p><strong>Solo letras minúsculas y sin acentos</strong></p>
+        </main>  
+            <section>
+            <textarea class="input-mensaje" cols= "18" rows="8" placeholder ="Ingresa el texto que desees encriptar o desencriptar"></textarea> 
+            <button class="copy" onclick="copiar()">Copiar</button>
+               
+            
+        </section>
+
+        <footer class="footer">Designed & Developed by: Laura de la Cruz - 2022</footer>
+      
+          
+    <script src="java.js"></script>
+</body>
+
+</html>

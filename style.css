@@ -1,0 +1,161 @@
+
+
+body{
+    background-image:url(../ventajas-sistemas-encriptacion-de-datos.jpg);
+   
+}
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+header{
+    width: 31.09px;
+    height: 48px;
+    margin-top: 8px;
+    left: 400px;
+    color: #0A3871;
+    position: absolute;
+
+}
+.input-padron{
+    position: relative;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;    
+    line-height: 150%;
+    border:none;
+
+}
+p{
+    width: 250px;
+    height: 18px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    
+    color: #f1f6f8;
+   
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    top:450px;
+    left: 240px;
+}
+
+.input-mensaje{
+    width: 323px;
+    height: 319px;
+    left: 880px;
+    margin-left: 90px;
+    margin-top: 20px;
+    background-image: url(../Muneco.png); 
+    background-repeat: no-repeat;  
+    background-position: 18px;
+    background-size:300px ;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #030c16;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    text-align: center;
+    border: none;
+}
+
+
+  
+.encriptar{
+    background: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    top: 495px;
+    left: 240px;
+    position: absolute;
+    
+    flex-direction:row ;
+    align-items: flex-start;
+    gap: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+
+    color: white;
+    font-size: 16px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.36px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    text-align: center;
+    transition: 1s all;
+    cursor: pointer;
+}
+.desencriptar{
+    
+    flex-direction:row ;
+    align-items: flex-start;
+    position: absolute;
+    gap: 8px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 328px;
+    height: 67px;
+    top: 495px;
+    left: 592px;
+    position: absolute;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #0A3871;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copy{
+    width: 128px;
+    height: 67px;
+    top: 495px;
+    left: 1092px;
+    position: absolute;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #0A3871;
+    border-radius: 24px;
+}
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    top: 600px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   color: #f1f6f8;
+}   
